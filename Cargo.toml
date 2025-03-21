@@ -7,9 +7,9 @@ edition = "2021"
 name = "epaper_ui"
 path = "src/lib.rs"
 
-[[bin]]
-name = "epaper_ui"
-path = "src/bin/main.rs"
+# [[bin]]
+# name = "epaper_ui"
+# path = "src/bin/main.rs"
 
 [[bin]]
 name = "hello_world"
