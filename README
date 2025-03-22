@@ -1,9 +1,9 @@
 #!/bin/bash
 set -e
 
-# Configuration (customize these)
-PI_IP=${1:-"raspberrypi.local"}  # Default Pi hostname/IP
-PI_USER=${2:-"pi"}               # Default username
+# Configuration (customized for your Pi)
+PI_IP=${1:-"192.168.0.33"}   # Your Pi's IP address
+PI_USER=${2:-"merry"}        # Your Pi's username
 DEPLOY_DIR="/home/$PI_USER/epaper_ui"
 
 # Target architecture (for 64-bit Raspberry Pi)
